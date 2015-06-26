@@ -1,0 +1,121 @@
+2012-01-13
+	*v1.26:
+			Updated sounds, and sound effects
+			Some tweaks to the fdm, and to the gear model.
+
+2011-12-23
+	*v1.25:
+			Holidays edition.
+			Some tweaks to the instruments materials (might improve performance)
+			1st try at adding propwash effect for rudder, rudder is now effective at lower speeds, might improve ground handling
+			and reduced elevator effectiveness to fix extreme reactions in pitch.
+
+2011-12-11
+	*v1.20:
+			Reverse throttle direction (as it was on the original aircraft)
+			Convert to the new model-combined effect.
+			Various model and texture fixes and tweaks.
+
+2011-06-28
+	*v1.11:
+			Some engine-management.nas cleanup and fixes (engine sputter, engine start override yasim)
+			Used a dummy texture for untextured objects with reflect effect (still one object makes the loader complain)
+
+2011-06-23
+	*v1.11:
+			More sound work (canopy closed now has an effect on sound)
+			More sound work (engine sounds tweaked)
+			More sound work (tweaked stall/G effects)
+			Tweaked a bit the view-shake effect to be more visible.
+			Added EasyStart(tm) in the IAR80 menu (selecting it allows you to start the engine just by pressing S)
+
+
+2011-06-14
+	*v1.1:
+			Converted most textures to .dds (better loading times, better bump detail, smaller package, with the downside of greater on disk space)
+			Local reflect-bump-spec.frag to accomodate dds texture
+			Animations and particle effects over MP
+			Propeller blades pitch animation
+			Reworked FDM, with better stall/spin behaviour
+			Some sound tweaks
+			Changed Cockpit lighting to a blueish shade
+			Some geometry fixes to avoid black faces
+
+2011-01-07
+	*v1.01:
+			Added Text Labels activated by ctrl-c.
+			Switched all glass surfaces to the Reflect shader.
+			Added Reflect shader to the cockpit(with cockpit cubemap).
+			Some manual pump tweaks.
+			Added gear touchdown smoke.
+			Fixed missing airframe g-load sound.
+			Some more eyecandy tweaks.
+
+2010-12-22
+	*v1.0:
+			Implemented limits, exceeding them has various effects on plane and systems.
+			Implemented emergency gear extension procedures.
+			Textured most of the interior.
+			Added "panel-lights"
+			Added seat adjustment possibility.
+			Reworked propeller damage model.
+			and many more...
+			...Finally upgrade status to production, and version number to 1.0.
+
+2010-10-20
+	*v0.61803398:
+			Hotfix for nasal errors in enginemanagement.nas on latest GIT
+			Removed obsolete bindings that caused nasal errors too
+			Model and Texturing fixes (Still gives a "harmless" warning on latest git :( )
+			Material specularity changes with Livery affecting reflection too ;)
+
+2010-10-20
+	*v0.6180339:
+			reworked FDM (thanks to Detlef for some pointers, and thanks to yoyo for nagging and testing)
+			some tweaks in engine management (modified warmup stage, changed fueltank usage)
+			fixed throtle movement in cockpit (made the movement reversed, as it appears to have been on the early models)
+			sound tweaks
+			modified contrail
+			various other minor tweaks and fixes
+
+2010-10-01
+	*v0.618033:
+			improved FDM
+			better engine management
+			input filter to simulate airflow over control surfaces and dinamic compensators
+			minor visual fixes
+			new reflect-bump-spec shader used
+			viewpoint shake on taxi/takeoff and due to pre-stall flutter
+			pre-stall flutter sound
+			engine smoke (alpha and color change acording to load/mixture)
+			submodel ammo and smoke
+
+2010-06-04
+	*v0.61803:
+			initial implementation of some advanced engine management
+			and electrical system
+			(now startup is more complex, and no more shortcuts ;) )
+			some minor fixes to the instruments
+			more FDM tweaks
+
+2010-05-28
+	*v0.6180:
+			fixed livery select problems, and back to full size textures :)
+			tweaked canopy sound
+			again some FDM tweaks
+
+2010-05-25
+	*v0.618:
+			scaled down main texture to  2048x2048 to reduce performance hit when using the livery system
+			enabled the livery system
+			enabled nav-lights
+			various minor modeling fixes
+			some more fdm tweaks
+
+2010-05-24
+	*v0.61:
+			fix file permisions and fix propeller hub
+
+2010-05-24
+	*v0.6:
+			initial release
