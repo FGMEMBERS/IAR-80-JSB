@@ -130,7 +130,8 @@
 			<rolling_friction> 0.02 </rolling_friction>
 			<spring_coeff unit="LBS/FT">       6570.00 </spring_coeff>
 			<damping_coeff unit="LBS/FT/SEC">  5256.00 </damping_coeff>
-			<max_steer unit="DEG"> 5.00 </max_steer>
+			<steerability> STEERABLE </steerability>
+			<max_steer unit="DEG"> -45.00 </max_steer>
 			<brake_group>NONE</brake_group>
 			<retractable>1</retractable>
 		</contact>
@@ -197,8 +198,8 @@
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
-			<capacity unit="LBS"> 400.77 </capacity>
-			<contents unit="LBS"> 200.38 </contents>
+			<capacity unit="LBS"> 399.00 </capacity>
+			<contents unit="LBS"> 399.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="1">
@@ -207,8 +208,8 @@
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
-			<capacity unit="LBS"> 400.77 </capacity>
-			<contents unit="LBS"> 200.38 </contents>
+			<capacity unit="LBS"> 462.60 </capacity>
+			<contents unit="LBS"> 462.60 </contents>
 		</tank>
 
 	</propulsion>
@@ -351,11 +352,15 @@
 						<time>      0 </time>
 					</setting>
 					<setting>
-						<position> 15 </position>
+						<position> 45 </position>
 						<time>      4 </time>
 					</setting>
 					<setting>
-						<position> 30 </position>
+						<position> 60 </position>
+						<time>      3 </time>
+					</setting>
+					<setting>
+						<position> 76 </position>
 						<time>      3 </time>
 					</setting>
 				</traverse>
@@ -366,7 +371,7 @@
 				<input>fcs/flap-pos-deg</input>
 				<domain>
 					<min>  0 </min>
-					<max> 30 </max>
+					<max> 76 </max>
 				</domain>
 				<range>
 					<min> 0 </min>
@@ -427,10 +432,10 @@
 					<table>
 						<independentVar lookup="row">aero/alpha-rad</independentVar>
 						<tableData>
-							-0.20 -0.730
-							 0.00  0.170
-							 0.23  1.200
-							 0.60  0.582
+							-0.20 -0.830
+							 0.00  0.270
+							 0.23  1.300
+							 0.60  0.682
 						</tableData>
 					</table>
 				</product>
@@ -442,7 +447,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/flap-pos-deg</property>
-					<value> 0.01000 </value>
+					<value> 0.01250 </value>
 				</product>
 			</function>
 

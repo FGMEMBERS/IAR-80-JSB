@@ -25,5 +25,6 @@ ZeroGear = {
     }
   }
 };
+
 var iar80 = JapaneseWarbird.new();
 var iar80_gear = ZeroGear.new();
