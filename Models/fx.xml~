@@ -67,7 +67,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR-80-JSB/Models/Fx/running-smoke.xml</path>
+		<path>Aircraft/IAR-80-JDB/Models/Fx/running-smoke.xml</path>
 		<offsets>
 			<x-m>1.822</x-m>
 			<y-m>0.606</y-m>

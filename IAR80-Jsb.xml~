@@ -48,7 +48,7 @@
 		<vtailarea unit="FT2">   18.30 </vtailarea>
 		<vtailarm  unit="FT" >   17.40 </vtailarm>
 		<location name="AERORP" unit="IN">
-			<x> 239.20 </x>
+			<x> 139.20 </x>
 			<y>   0.00 </y>
 			<z>   0.00 </z>
 		</location>
@@ -70,7 +70,7 @@
 		<izz unit="SLUG*FT2">      7016 </izz>
 		<emptywt unit="LBS" >      4850 </emptywt>
 		<location name="CG" unit="IN">
-			<x> 239.20 </x>
+			<x> 139.20 </x>
 			<y>   0.00 </y>
 			<z>  -8.70 </z>
 		</location>
@@ -78,7 +78,7 @@
 			<description> 918 LBS + full (802 LBS) fuel should bring model up to entered max weight</description>
 			<weight unit="LBS">    459.2 </weight>
 			<location name="POINTMASS" unit="IN">
-				<x> 239.20 </x>
+				<x> 139.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
@@ -193,7 +193,7 @@
 
 		<tank type="FUEL" number="0">
 			<location unit="IN">
-				<x> 239.20 </x>
+				<x> 139.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
@@ -203,7 +203,7 @@
 
 		<tank type="FUEL" number="1">
 			<location unit="IN">
-				<x> 239.20 </x>
+				<x> 139.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>

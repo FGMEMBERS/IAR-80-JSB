@@ -706,7 +706,7 @@
 		<type>rotate</type>
 		<object-name>RHaileron</object-name>
 		<property>surface-positions/right-aileron-pos-norm</property>
-		<factor>26</factor>
+		<factor>-26</factor>
 		<axis>
 			<x1-m> 3.154</x1-m>			<y1-m> 2.718</y1-m>			<z1-m>-0.289</z1-m>
 			<x2-m> 2.922</x2-m>			<y2-m> 4.480</y2-m>			<z2-m>-0.187</z2-m>

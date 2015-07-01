@@ -8,7 +8,7 @@
 		Peter Brendt (Jabberwocky)
 
 		based on:
-		3D model taken from Emilian Huminiuc's Electra (on Yasim) under GPL
+		3D model taken from Emilian Huminiuc's IAR80 (on Yasim) under GPL
 		************************************************************************
 	-->
 
@@ -107,7 +107,7 @@
 		</instrumentation>
 
 		<!-- #### MP section if exists -->
-		<!-- multiplay>
+		<multiplay>
 			<generic>
 				<int n="0" alias="/sim/failure-manager/engines/engine[0]/rev-strain"/>
 				<int n="1" alias="/sim/failure-manager/engines/engine[0]/seize-strain"/>
@@ -133,7 +133,7 @@
 				<float n="9" alias="/velocities/airspeed-kt"/>
 				<float n="10" alias="/velocities/speed-down-fps"/>
 			</generic>
-		</multiplay -->
+		</multiplay>
 
 		<!-- #### HUD section if exists -->
 		<hud>
@@ -363,7 +363,7 @@
 
 	<controls>
 		<engines>
-			<engine n="0">
+			<!-- engine n="0">
 				<propeller-feather type="bool">false</propeller-feather>
 				<propeller-pitch type="double">1.0</propeller-pitch>
 				<boost type="bool">true</boost>
@@ -375,6 +375,16 @@
 				<primer-pos-norm type="double">1</primer-pos-norm>
 				<primer-pressed type="bool">true</primer-pressed>
 				<running type="bool">false</running>
+			</engine -->
+			<engine n="0">
+				<magnetos type="int">0</magnetos>
+				<rpm>0</rpm>
+				<running>false</running>
+				<boost type="bool">true</boost>
+				<oil-dilution type="bool">false</oil-dilution>
+				<cowl-flaps-cmd type="int">1</cowl-flaps-cmd>
+				<cowl-flaps-norm type="double">1</cowl-flaps-norm>
+				<cowl-flaps-pos type="double">1</cowl-flaps-pos>
 			</engine>
 		</engines>
 		<canopy>
@@ -445,19 +455,6 @@
 					<property>controls/engines/engine[0]/cowl-flaps-norm</property>
 					<step type="double">0.1</step>
 				</binding>
-			</key>
-			<key n="115">
-				<name>s</name>
-				<binding>
-					<command>property-toggle</command>
-					<property>controls/switches/starter</property>
-				</binding>
-				<mod-up>
-					<binding>
-						<command>property-toggle</command>
-						<property>controls/switches/starter</property>
-					</binding>
-				</mod-up>
 			</key>
 		</keyboard>
 	</input>
