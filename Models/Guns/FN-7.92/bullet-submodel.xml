@@ -4,7 +4,7 @@
 
 	<submodel>
 		<name>bullet splash</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/flack.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/flack.xml</model>
 		<speed>0</speed>
 		<repeat>false</repeat>
 		<delay>0</delay>

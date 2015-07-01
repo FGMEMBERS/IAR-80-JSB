@@ -9,7 +9,7 @@
 			<normalmap-enabled type="int">1</normalmap-enabled>
 			<normalmap-dds type="int">1</normalmap-dds>
 			<texture n="2">
-				<image>Aircraft/IAR80/Models/Effects/Textures/iar80_bump_alu-nv.dds</image>
+				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/iar80_bump_alu-nv.dds</image>
 				<filter>linear-mipmap-linear</filter>
 				<wrap-s>repeat</wrap-s>
 				<wrap-t>repeat</wrap-t>
@@ -25,7 +25,7 @@
 			</reflection-correction>
 			<reflection-dynamic type="int">1</reflection-dynamic>
 			<texture n="4">
-				<image>Aircraft/IAR80/Models/Effects/Textures/iar80_refl_dirt_alu-nv.dds</image>
+				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/iar80_refl_dirt_alu-nv.dds</image>
 				<filter>linear-mipmap-linear</filter>
 				<wrap-s>clamp</wrap-s>
 				<wrap-t>clamp</wrap-t>
@@ -34,19 +34,19 @@
 			<texture n="5">
 				<type>cubemap</type>
 				<images>
-					<positive-x>Aircraft/IAR80/Models/Effects/Textures/Cubemap/Exterior/1.dds</positive-x>
-					<negative-x>Aircraft/IAR80/Models/Effects/Textures/Cubemap/Exterior/4.dds</negative-x>
-					<positive-y>Aircraft/IAR80/Models/Effects/Textures/Cubemap/Exterior/2.dds</positive-y>
-					<negative-y>Aircraft/IAR80/Models/Effects/Textures/Cubemap/Exterior/3.dds</negative-y>
-					<positive-z>Aircraft/IAR80/Models/Effects/Textures/Cubemap/Exterior/6.dds</positive-z>
-					<negative-z>Aircraft/IAR80/Models/Effects/Textures/Cubemap/Exterior/5.dds</negative-z>
+					<positive-x>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Exterior/1.dds</positive-x>
+					<negative-x>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Exterior/4.dds</negative-x>
+					<positive-y>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Exterior/2.dds</positive-y>
+					<negative-y>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Exterior/3.dds</negative-y>
+					<positive-z>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Exterior/6.dds</positive-z>
+					<negative-z>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Exterior/5.dds</negative-z>
 				</images>
 			</texture>
 			<reflection-fresnel>
 				<use>sim/model/livery/reflection-fresnel</use>
 			</reflection-fresnel>
 			<texture n="6">
-				<image>Aircraft/IAR80/Models/Effects/Textures/FresnelLookUp.dds</image>
+				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/FresnelLookUp.dds</image>
 				<filter>linear-mipmap-linear</filter>
 				<wrap-s>repeat</wrap-s>
 				<wrap-t>repeat</wrap-t>
@@ -54,7 +54,7 @@
 			</texture>
 			<reflection-rainbow type="float">0.2</reflection-rainbow>
 			<texture n="7">
-				<image>Aircraft/IAR80/Models/Effects/Textures/Rainbow.dds</image>
+				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/Rainbow.dds</image>
 				<filter>linear-mipmap-linear</filter>
 				<wrap-s>repeat</wrap-s>
 				<wrap-t>repeat</wrap-t>

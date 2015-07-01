@@ -4,7 +4,7 @@
 	<!-- LEFT-13.2mm -->
 	<submodel>
 		<name>gp1-tracer</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/tracer.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/tracer.xml</model>
 		<trigger>controls/armament/gun-fire</trigger>
 		<speed>2700.0</speed>
 		<repeat>true</repeat>
@@ -43,13 +43,13 @@
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/bullet</impact-report>
 		<impact-reports>ai/models/model-impact</impact-reports>
-		<submodel-path>Aircraft/IAR80/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
+		<submodel-path>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
 	</submodel>
 
 	<!-- LEFT -->
 	<submodel>
 		<name>mg1-tracer</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/tracer.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/tracer.xml</model>
 		<trigger>controls/armament/mg-fire</trigger>
 		<speed>3115.0</speed>
 		<repeat>true</repeat>
@@ -88,13 +88,13 @@
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/bullet</impact-report>
 		<impact-reports>ai/models/model-impact</impact-reports>
-		<submodel-path>Aircraft/IAR80/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
+		<submodel-path>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
 	</submodel>
 
 	<!-- LEFT OUTER -->
 	<submodel>
 		<name>mg2-tracer</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/tracer.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/tracer.xml</model>
 		<trigger>controls/armament/mg-fire</trigger>
 		<speed>3115.0</speed>
 		<repeat>true</repeat>
@@ -133,14 +133,14 @@
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/bullet</impact-report>
 		<impact-reports>ai/models/model-impact</impact-reports>
-		<submodel-path>Aircraft/IAR80/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
+		<submodel-path>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
 	</submodel>
 
 
 	<!-- RIGHT-13.2mm -->
 	<submodel>
 		<name>gp2-tracer</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/tracer.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/tracer.xml</model>
 		<trigger>controls/armament/gun-fire</trigger>
 		<speed>2700.0</speed>
 		<repeat>true</repeat>
@@ -179,13 +179,13 @@
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/bullet</impact-report>
 		<impact-reports>ai/models/model-impact</impact-reports>
-		<submodel-path>Aircraft/IAR80/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
+		<submodel-path>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
 	</submodel>
 
 	<!--   RIGHT -->
 	<submodel>
 		<name>mg3-tracer</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/tracer.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/tracer.xml</model>
 		<trigger>controls/armament/mg-fire</trigger>
 		<speed>3115.0</speed>
 		<repeat>true</repeat>
@@ -224,13 +224,13 @@
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/bullet</impact-report>
 		<impact-reports>ai/models/model-impact</impact-reports>
-		<submodel-path>Aircraft/IAR80/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
+		<submodel-path>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
 	</submodel>
 
 	<!-- Right OUTER -->
 	<submodel>
 		<name>mg4-tracer</name>
-		<model>Aircraft/IAR80/Models/Guns/FN-7.92/tracer.xml</model>
+		<model>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/tracer.xml</model>
 		<trigger>controls/armament/mg-fire</trigger>
 		<speed>3115.0</speed>
 		<repeat>true</repeat>
@@ -269,7 +269,7 @@
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/bullet</impact-report>
 		<impact-reports>ai/models/model-impact</impact-reports>
-		<submodel-path>Aircraft/IAR80/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
+		<submodel-path>Aircraft/IAR-80-JSB/Models/Guns/FN-7.92/bullet-submodel.xml</submodel-path>
 	</submodel>
 
 </PropertyList>

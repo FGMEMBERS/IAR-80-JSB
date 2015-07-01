@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--IAR80 particle effects (smoke, contrail, propwash)
-	This file is read by iar890.xml
-	Datum is tip of propeller spinner-->
+
 <PropertyList>
 
 <!-- ENGINE STARTUP SMOKE -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/startup-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/startup-smoke.xml</path>
 		<offsets>
 			<x-m> 1.822</x-m>
 			<y-m>-0.606</y-m>
@@ -18,7 +16,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/startup-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/startup-smoke.xml</path>
 		<offsets>
 			<x-m>1.822</x-m>
 			<y-m>0.606</y-m>
@@ -30,7 +28,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/startup-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/startup-smoke.xml</path>
 		<offsets>
 			<x-m> 1.764</x-m>
 			<y-m> 0.190</y-m>
@@ -43,7 +41,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/startup-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/startup-smoke.xml</path>
 		<offsets>
 			<x-m> 1.757</x-m>
 			<y-m>-0.373</y-m>
@@ -55,9 +53,9 @@
 		<scale> 0.5 </scale>
 	</model>
 
-<!-- ENGINE RUNNING SMOKE -->
+	<!-- ENGINE RUNNING SMOKE -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/running-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/running-smoke.xml</path>
 		<offsets>
 			<x-m> 1.822</x-m>
 			<y-m>-0.606</y-m>
@@ -69,7 +67,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/running-smoke.xml</path>
+		<path>Aircraft/IAR-80-JDB/Models/Fx/running-smoke.xml</path>
 		<offsets>
 			<x-m>1.822</x-m>
 			<y-m>0.606</y-m>
@@ -81,7 +79,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/running-smoke-l.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/running-smoke-l.xml</path>
 		<offsets>
 			<x-m> 1.764</x-m>
 			<y-m> 0.190</y-m>
@@ -94,7 +92,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/running-smoke-l.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/running-smoke-l.xml</path>
 		<offsets>
 			<x-m> 1.757</x-m>
 			<y-m>-0.373</y-m>
@@ -106,9 +104,9 @@
 		<scale> 0.25 </scale>
 	</model>
 
-<!-- ENGINE wear SMOKE -->
+	<!-- ENGINE wear SMOKE -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/smoke-oil.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/smoke-oil.xml</path>
 		<offsets>
 			<x-m> 1.822</x-m>
 			<y-m>-0.606</y-m>
@@ -120,7 +118,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/smoke-oil.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/smoke-oil.xml</path>
 		<offsets>
 			<x-m>1.822</x-m>
 			<y-m>0.606</y-m>
@@ -132,7 +130,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/smoke-oil.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/smoke-oil.xml</path>
 		<offsets>
 			<x-m> 1.764</x-m>
 			<y-m> 0.190</y-m>
@@ -145,7 +143,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/smoke-oil.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/smoke-oil.xml</path>
 		<offsets>
 			<x-m> 1.757</x-m>
 			<y-m>-0.373</y-m>
@@ -157,9 +155,9 @@
 		<scale> 0.25 </scale>
 	</model>
 
-<!-- CONTRAIL -->
+	<!-- CONTRAIL -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/contrail.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/contrail.xml</path>
 		<offsets>
 			<x-m>80</x-m>
 			<y-m> 0</y-m>
@@ -170,9 +168,9 @@
 		</offsets>
 	</model>
 
-<!-- WING PRE-STALL vortex -->
+	<!-- WING PRE-STALL vortex -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/wing-vortex.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/wing-vortex.xml</path>
 		<offsets>
 			<x-m> 2.590</x-m>
 			<y-m>-5.213</y-m>
@@ -184,7 +182,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/wing-vortex.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/wing-vortex.xml</path>
 		<offsets>
 			<x-m> 2.590</x-m>
 			<y-m> 5.213</y-m>
@@ -195,9 +193,9 @@
 		</offsets>
 	</model>
 
-<!--PROP WASH-->
+	<!--PROP WASH-->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/prop-wash.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/prop-wash.xml</path>
 		<offsets>
 			<x-m>10</x-m>
 			<y-m> 0</y-m>
@@ -262,10 +260,10 @@
 		</axis>
 	</animation>
 
-<!-- Gunsmoke -->
-<!-- LEFT -->
+	<!-- Gunsmoke -->
+	<!-- LEFT -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/gun-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/gun-smoke.xml</path>
 		<scale>1.25</scale>
 		<offsets>
 			<x-m> 1.808070</x-m>
@@ -278,7 +276,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/mg-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/mg-smoke.xml</path>
 		<offsets>
 			<x-m> 1.929080</x-m>
 			<y-m>-2.115010</y-m>
@@ -290,7 +288,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/mg-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/mg-smoke.xml</path>
 		<offsets>
 			<x-m> 1.920240</x-m>
 			<y-m>-2.684980</y-m>
@@ -301,10 +299,10 @@
 		</offsets>
 	</model>
 
-<!-- Gunsmoke -->
-<!-- RIGHT -->
+	<!-- Gunsmoke -->
+	<!-- RIGHT -->
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/gun-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/gun-smoke.xml</path>
 		<scale>1.25</scale>
 		<offsets>
 			<x-m> 1.808070</x-m>
@@ -317,7 +315,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/mg-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/mg-smoke.xml</path>
 		<offsets>
 			<x-m> 1.929080</x-m>
 			<y-m> 2.115010</y-m>
@@ -329,7 +327,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/mg-smoke.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/mg-smoke.xml</path>
 		<offsets>
 			<x-m> 1.920240</x-m>
 			<y-m> 2.684980</y-m>
@@ -340,9 +338,9 @@
 		</offsets>
 	</model>
 
-<!-- GEAR TOUCHDOWN MODE -->
+	<!-- GEAR TOUCHDOWN MODE -->
 	<model>
-	    <path>Aircraft/IAR80/Models/Fx/gear-smoke-l.xml</path>
+	    <path>Aircraft/IAR-80-JSB/Models/Fx/gear-smoke-l.xml</path>
 	    <offsets>
 		<x-m> 2.573</x-m>
 		<y-m>-1.637</y-m>
@@ -354,7 +352,7 @@
 	</model>
 
 	<model>
-	    <path>Aircraft/IAR80/Models/Fx/gear-smoke-r.xml</path>
+	    <path>Aircraft/IAR-80-JSB/Models/Fx/gear-smoke-r.xml</path>
 	    <offsets>
 		<x-m> 2.573</x-m>
 		<y-m> 1.637</y-m>

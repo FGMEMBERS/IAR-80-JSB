@@ -4,7 +4,7 @@
   <path>starterswitch.ac</path>
 
 	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_opaque</inherits-from>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_opaque</inherits-from>
 		<object-name>Cover</object-name>
 	</effect>
 
@@ -139,7 +139,7 @@
 	</animation>
 
    <effect>
-	   <inherits-from>Aircraft/IAR80/Models/Effects/iar80_alu_internal</inherits-from>
+	   <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_alu_internal</inherits-from>
 	   <object-name>Cover_0</object-name>
 	   <object-name>Plane</object-name>
 	   <object-name>Screws</object-name>

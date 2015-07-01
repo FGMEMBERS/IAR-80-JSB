@@ -5,14 +5,14 @@
 	<electrical>
 		<name>electrical</name>
 		<number>0</number>
-		<path>Aircraft/IAR80/Systems/IAR80-electrical.xml</path>
+		<path>Aircraft/IAR-80-JSB/Systems/IAR80-electrical.xml</path>
 	</electrical>
 
 	<!--  
 	<instrumentation>
 		<name>instrumentation</name>
 		<number>0</number>
-		<path>Aircraft/IAR80/Systems/IAR80-instrumentation.xml</path>
+		<path>Aircraft/IAR-80-JSB/Systems/IAR80-instrumentation.xml</path>
 	</instrumentation>
 	-->
 

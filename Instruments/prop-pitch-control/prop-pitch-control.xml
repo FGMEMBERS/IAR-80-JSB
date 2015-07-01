@@ -61,7 +61,7 @@
 	</animation>
 
 	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_opaque</inherits-from>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_opaque</inherits-from>
 		<object-name>Cube_1</object-name>
 	</effect>
 

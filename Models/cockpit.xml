@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--IAR80 cockpit animation file.
-	This file is read by iar80.xml
-	Datum is tip of propeller spinner.
-	-->
+
 <PropertyList>
 
 	<path>cockpit.ac</path>
 
-<!-- INSTRUMENTS import -->
+	<!-- INSTRUMENTS import -->
 	<model>
-		<path>Aircraft/IAR80/Models/instruments.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/instruments.xml</path>
 	</model>
 
 	<!--THROTTLE-->
@@ -1626,7 +1623,7 @@
    </animation>
 
    <effect>
-	   <inherits-from>Aircraft/IAR80/Models/Effects/iar80_alu_internal</inherits-from>
+	   <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_alu_internal</inherits-from>
 	   <object-name>ChairLever</object-name>
 	   <object-name>ChairLever.001_1</object-name>
 	   <object-name>Circle.001</object-name>
@@ -1680,7 +1677,7 @@
    </effect>
 
    <effect>
-	   <inherits-from>Aircraft/IAR80/Models/Effects/iar80_opaque</inherits-from>
+	   <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_opaque</inherits-from>
 	   <object-name>Dash_L</object-name>
 	   <object-name>Dash_R</object-name>
 	   <object-name>Dash_C</object-name>

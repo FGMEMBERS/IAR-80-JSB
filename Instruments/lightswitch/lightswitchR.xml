@@ -80,7 +80,7 @@
    </animation>
 
    <effect>
-	   <inherits-from>Aircraft/IAR80/Models/Effects/iar80_alu_internal</inherits-from>
+	   <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_alu_internal</inherits-from>
 	   <object-name>Screws</object-name>
 	   <object-name>Switch</object-name>
    </effect>

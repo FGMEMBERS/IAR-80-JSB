@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--IAR80 Model animation file
-	Datum is tip of propeller spinner-->
 
 <PropertyList>
 
 	<path>iar_80c.ac</path>
 
-<!-- LIVERY SCRIPT -->
+	<!-- LIVERY SCRIPT -->
 	<nasal>
 		<load>
-			var livery_update = aircraft.livery_update.new("Aircraft/IAR80/Models/Liveries", 10);
+			var livery_update = aircraft.livery_update.new("Aircraft/IAR-80-JSB/Models/Liveries", 10);
 		</load>
 		<unload>
 			livery_update.stop();
 		</unload>
 	</nasal>
 
-<!-- Collision Ignore for propeller -->
+	<!-- Collision Ignore for propeller -->
 	<animation>
 		<object-name>Propeller</object-name>
 		<object-name>PBlade1</object-name>
@@ -41,17 +39,17 @@
 		<nopreview/>
 	</animation>
 
-<!-- PARTICLE EFFECTS -->
+	<!-- PARTICLE EFFECTS -->
 	<model>
-		<path>Aircraft/IAR80/Models/fx.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/fx.xml</path>
 	</model>
 
-<!-- COCKPIT -->
+	<!-- COCKPIT -->
 	<model>
-		<path>Aircraft/IAR80/Models/cockpit.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/cockpit.xml</path>
 	</model>
 
-<!-- COWL FLAPS -->
+	<!-- COWL FLAPS -->
 	<animation>
 		<type>select</type>
 		<object-name>CowlFlapsO</object-name>
@@ -172,9 +170,7 @@
 		</axis>
 	</animation>
 
-
-
-<!--propeller-->
+	<!--propeller-->
 	<animation>
 		<type>select</type>
 		<enable-hot>false</enable-hot>
@@ -431,7 +427,7 @@
 		</axis>
 	</animation>
 
-<!--   PROPELLER DAMAGE -->
+	<!--   PROPELLER DAMAGE -->
 	<animation>
 		<type>select</type>
 		<object-name>PropDmg</object-name>
@@ -459,8 +455,8 @@
 		</axis>
 	</animation>
 
-<!-- CONTROL SURFACES -->
-<!-- ELEVATOR -->
+	<!-- CONTROL SURFACES -->
+	<!-- ELEVATOR -->
 	<animation>
 	    <type>select</type>
 	    <object-name>Elevator</object-name>
@@ -471,7 +467,7 @@
 	    <object-name>ElevatorTabR.001</object-name>
 	    <object-name>ElevatorTabR.002</object-name>
 	    <condition>
-				<property>sim/multiplay/generic/int[15]</property>
+		<property>sim/multiplay/generic/int[15]</property>
 	    </condition>
 	</animation>
 
@@ -502,7 +498,7 @@
 		</axis>
 	</animation>
 
-<!--ELEVATOR left tab -->
+	<!--ELEVATOR left tab -->
 	<animation>
 		<type>rotate</type>
 		<object-name>ElevatorTabL</object-name>
@@ -568,7 +564,7 @@
 		</axis>
 	</animation>
 
-<!-- ELEVATOR right tab -->
+	<!-- ELEVATOR right tab -->
 	<animation>
 		<type>rotate</type>
 		<object-name>ElevatorTabR</object-name>
@@ -634,7 +630,7 @@
 		</axis>
 	</animation>
 
-<!-- RUDDER -->
+	<!-- RUDDER -->
 
 	<animation>
 		<type>select</type>
@@ -661,7 +657,7 @@
 		</axis>
 	</animation>
 
-<!-- FLAPS -->
+	<!-- FLAPS -->
 	<animation>
 		<type>rotate</type>
 		<object-name>LHflap</object-name>
@@ -684,7 +680,7 @@
 		</axis>
 	</animation>
 
-<!-- AILERONS -->
+	<!-- AILERONS -->
 	<animation>
 		<type>select</type>
 		<object-name>LHaileron</object-name>
@@ -726,8 +722,8 @@
 	</animation>
 
 
-<!-- GEAR -->
-<!-- Gear Panels -->
+	<!-- GEAR -->
+	<!-- Gear Panels -->
 	<animation>
 		<type>rotate</type>
 		<object-name>LGDrot</object-name>
@@ -790,7 +786,7 @@
 		</axis>
 	</animation>
 
-<!-- LEFT MAIN GEAR -->
+	<!-- LEFT MAIN GEAR -->
 	<animation>
 		<type>rotate</type>
 		<object-name>Lstrut</object-name>
@@ -973,7 +969,7 @@
 		</axis>
 	</animation>
 
-<!-- RIGHT MAIN GEAR-->
+	<!-- RIGHT MAIN GEAR-->
 	<animation>
 		<type>rotate</type>
 		<object-name>Rstrut</object-name>
@@ -1156,7 +1152,7 @@
 		</axis>
 	</animation>
 
-<!--NAV LIGHTS -->
+	<!--NAV LIGHTS -->
 	<animation>
 		<type>select</type>
 		<object-name>NavLightL</object-name>
@@ -1225,7 +1221,7 @@
 		</center>
 	</animation>
 
-<!-- CANOPY -->
+	<!-- CANOPY -->
 	<animation>
 		<type>translate</type>
 		<object-name>00_GlassR</object-name>
@@ -1276,8 +1272,8 @@
 		</action>
 	</animation>
 
-<!-- LIVERIES -->
-<!-- change skin -->
+	<!-- LIVERIES -->
+	<!-- change skin -->
 	<animation>
 		<type>material</type>
 		<object-name>Fuselage</object-name>
@@ -1331,7 +1327,7 @@
 		<texture-prop>texture</texture-prop>
 	</animation>
 
-<!-- change shininess -->
+	<!-- change shininess -->
 	<animation>
 		<type>material</type>
 		<object-name>Fuselage</object-name>
@@ -1413,25 +1409,25 @@
 	</animation>
 
 	<!-- GLASS EFFECT -->
-	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_glass</inherits-from>
+	<!-- effect>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass</inherits-from>
 		<object-name>00_GlassR</object-name>
 		<object-name>00_GlassL</object-name>
 		<object-name>00_WindShield</object-name>
 		<object-name>WingLightP</object-name>
 		<object-name>WingLightS</object-name>
 		<object-name>TailLightGlass</object-name>
-	</effect>
+	</effect -->
 
-	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_glass_internal</inherits-from>
+	<!-- effect>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass_internal</inherits-from>
 		<object-name>00_GlassInR</object-name>
 		<object-name>00_GlassInL</object-name>
-	</effect>
+	</effect -->
 
 	<!-- SKIN-EFFECT -->
-	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_bumpspecreflect</inherits-from>
+	<!--effect>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_bumpspecreflect</inherits-from>
 		<object-name>Fuselage</object-name>
 		<object-name>AirFilter</object-name>
 		<object-name>Canopy</object-name>
@@ -1475,18 +1471,18 @@
 		<object-name>TailLight</object-name>
 		<object-name>Wing</object-name>
 		<object-name>WSstruct</object-name>
-	</effect>
+	</effect -->
 
-<!-- RAIN EFFECT -->
+	<!-- RAIN EFFECT -->
 
 	<!--<effect>
 		<object-name>WindShieldDrops</object-name>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_raindrops</inherits-from>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_raindrops</inherits-from>
 	</effect>-->
 
-<!--  REMBRANDT lights -->
-	<model>
-		<path>Aircraft/IAR80/Models/Fx/light-green.xml</path>
+	<!--  REMBRANDT lights -->
+	<!-- model>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/light-green.xml</path>
 		<offsets>
 			<x-m> 2.367</x-m>
 			<y-m> 5.193</y-m>
@@ -1494,7 +1490,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/light-red.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/light-red.xml</path>
 		<offsets>
 			<x-m> 2.367</x-m>
 			<y-m>-5.193</y-m>
@@ -1502,16 +1498,16 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/IAR80/Models/Fx/light-white.xml</path>
+		<path>Aircraft/IAR-80-JSB/Models/Fx/light-white.xml</path>
 		<offsets>
 			<x-m>8.386</x-m>
 			<y-m>0.000</y-m>
 			<z-m>1.705</z-m>
 		</offsets>
-	</model>
+	</model -->
 
-<!--  REMBRANDT support for transparent objects -->
-	<effect>
+	<!--  REMBRANDT support for transparent objects -->
+	<!-- effect>
 		<inherits-from>Effects/model-transparent</inherits-from>
 		<object-name>PbBlade1</object-name>
 		<object-name>PbBlade2</object-name>
@@ -1520,6 +1516,6 @@
 		<object-name>NavLightL</object-name>
 		<object-name>NavLightR</object-name>
 		<object-name>NavLightB</object-name>
-	</effect>
+	</effect -->
 
 </PropertyList>

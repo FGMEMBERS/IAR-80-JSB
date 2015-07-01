@@ -42,12 +42,12 @@
   </animation>
 
    <effect>
-       <inherits-from>Aircraft/IAR80/Models/Effects/iar80_glass_internal</inherits-from>
+       <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass_internal</inherits-from>
        <object-name>Lens</object-name>
    </effect>
 
 	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_opaque</inherits-from>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_opaque</inherits-from>
 		<object-name>Disc</object-name>
 		<object-name>Cylinder_1</object-name>
 	</effect>

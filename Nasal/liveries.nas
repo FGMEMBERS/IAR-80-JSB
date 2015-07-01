@@ -1,3 +1,3 @@
-aircraft.livery.init("Aircraft/IAR80/Models/Liveries");
+aircraft.livery.init("Aircraft/IAR-80-JSB/Models/Liveries");
 
 

@@ -3,7 +3,7 @@
   <path>IOR-sight.ac</path>
 
 	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_glass_internal</inherits-from>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass_internal</inherits-from>
 		<object-name>TLens</object-name>
 		<object-name>DLens</object-name>
 		<object-name>Dlens</object-name>
@@ -102,7 +102,7 @@
 		</center>
 	</animation>
 
-<!-- RANGE SETTING -->
+	<!-- RANGE SETTING -->
 	<animation>
 		<type>pick</type>
 		<object-name>Rcog</object-name>
@@ -308,7 +308,7 @@
 	</animation>
 
 	<effect>
-		<inherits-from>Aircraft/IAR80/Models/Effects/iar80_alu_internal</inherits-from>
+		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_alu_internal</inherits-from>
 		<object-name>Bcog_0</object-name>
 		<object-name>Bcog_1</object-name>
 		<object-name>Cylinder_0</object-name>

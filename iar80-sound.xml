@@ -5,7 +5,7 @@
 	<!-- ENGINE START -->
 		<crank>
 			<name>crank</name>
-			<path>Aircraft/IAR80/Sounds/engine_startup_k14c.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/engine_startup_k14c.wav</path>
 			<condition>
 				<property>/engines/engine[0]/cranking</property>
 				<less-than>
@@ -34,7 +34,7 @@
 
 		<crank>
 			<name>crank-in</name>
-			<path>Aircraft/IAR80/Sounds/engine_startup_k14c.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/engine_startup_k14c.wav</path>
 			<condition>
 				<property>/engines/engine[0]/cranking</property>
 				<less-than>
@@ -66,7 +66,7 @@
 		<engineload_ext>
 			<name>engine-load-ext</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/iar-Slow-d.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/iar-Slow-d.wav</path>
 			<condition>
 				<property>/engines/engine[0]/running</property>
 				<less-than>
@@ -113,7 +113,7 @@
 		<engineload_ext>
 			<name>engine-load-ext_in</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/iar-Slow-d.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/iar-Slow-d.wav</path>
 			<condition>
 				<property>/engines/engine[0]/running</property>
 				<less-than>
@@ -159,7 +159,7 @@
 		<engine-lo>
 			<name>engine-idle</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/engine_idle_k14e.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/engine_idle_k14e.wav</path>
 			<condition>
 				<property>/engines/engine[0]/running</property>
 				<greater-than>
@@ -207,7 +207,7 @@
 		<engine-lo>
 			<name>engine-idle_in</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/engine_idle_k14e.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/engine_idle_k14e.wav</path>
 			<condition>
 				<property>/engines/engine[0]/running</property>
 				<greater-than>
@@ -245,7 +245,7 @@
 		<engine-hi>
 			<name>engine-hi</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/engine_hi_k14e.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/engine_hi_k14e.wav</path>
 			<condition>
 				<property>/engines/engine[0]/running</property>
 				<greater-than>
@@ -295,7 +295,7 @@
 		<engine-hi>
 			<name>engine-hi_in</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/engine_hi_k14e.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/engine_hi_k14e.wav</path>
 			<condition>
 				<property>/engines/engine[0]/running</property>
 				<greater-than>
@@ -336,7 +336,7 @@
 	<!-- ENGINE STOP -->
 		<enginestop>
 			<name>engine_off</name>
-			<path>Aircraft/IAR80/Sounds/shutdown.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/shutdown.wav</path>
 			<type>raise</type>
 			<condition>
 				<and>
@@ -380,7 +380,7 @@
 	<!-- ENGINE COUGH -->
 		<enginecough>
 			<name>engine_cough</name>
-			<path>Aircraft/IAR80/Sounds/coughing.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/coughing.wav</path>
 			<type>fall</type>
 			<condition>
 				<and>
@@ -658,7 +658,7 @@
 		<canopyL>
 			<name>canopy-open-l</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/IAR80/Sounds/canopy-slide1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/canopy-slide1.wav</path>
 			<property>controls/canopy/position-norm</property>
 			<volume>
 				<factor>0.65</factor>
@@ -679,7 +679,7 @@
 		<canopyR>
 			<name>canopy-open-r</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/IAR80/Sounds/canopy-slide1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/canopy-slide1.wav</path>
 			<property>controls/canopy/position-norm</property>
 			<volume>
 				<factor>0.65</factor>
@@ -777,7 +777,7 @@
 		<high-g>
 			<name>high-g</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/IAR80/Sounds/airframe-torsion.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/airframe-torsion.wav</path>
 			<condition>
 				<or>
 					<greater-than>
@@ -813,7 +813,7 @@
 		<pre-stall-L>
 			<name>pre-stall_L</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/stall-a.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/stall-a.wav</path>
 			<condition>
 				<or>
 					<greater-than>
@@ -848,7 +848,7 @@
 		<pre-stall-R>
 			<name>pre-stall_R</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/stall-a.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/stall-a.wav</path>
 			<condition>
 				<or>
 					<greater-than>
@@ -1263,7 +1263,7 @@
 		<guns>
 			<name>gunfirel1</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/gunfire_1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/gunfire_1.wav</path>
 			<condition>
 				<property>controls/armament/gun-fire</property>
 				<property>ai/submodels/submodel[0]/count</property>
@@ -1284,7 +1284,7 @@
 		<guns>
 			<name>mgfirel2</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/gunfire_1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/gunfire_1.wav</path>
 			<condition>
 				<property>controls/armament/mg-fire</property>
 				<property>ai/submodels/submodel[2]/count</property>
@@ -1308,7 +1308,7 @@
 		<guns>
 			<name>mgfirel3</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/gunfire_1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/gunfire_1.wav</path>
 			<condition>
 				<property>controls/armament/mg-fire</property>
 				<property>ai/submodels/submodel[4]/count</property>
@@ -1332,7 +1332,7 @@
 		<guns>
 			<name>gunfirer1</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/gunfire_1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/gunfire_1.wav</path>
 			<condition>
 				<property>controls/armament/gun-fire</property>
 				<property>ai/submodels/submodel[6]/count</property>
@@ -1353,7 +1353,7 @@
 		<guns>
 			<name>mgfirer2</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/gunfire_1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/gunfire_1.wav</path>
 			<condition>
 				<property>controls/armament/mg-fire</property>
 				<property>ai/submodels/submodel[8]/count</property>
@@ -1377,7 +1377,7 @@
 		<guns>
 			<name>mgfirer3</name>
 			<mode>looped</mode>
-			<path>Aircraft/IAR80/Sounds/gunfire_1.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/gunfire_1.wav</path>
 			<condition>
 				<property>controls/armament/mg-fire</property>
 				<property>ai/submodels/submodel[10]/count</property>
@@ -1444,7 +1444,7 @@
 			<name>wing bang</name>
 			<mode>once</mode>
 			<type>fall</type>
-			<path>Aircraft/IAR80/Sounds/wing_bent.wav</path>
+			<path>Aircraft/IAR-80-JSB/Sounds/wing_bent.wav</path>
 			<condition>
 				<equals>
 					<property>sim/failure-manager/wing/bent</property>

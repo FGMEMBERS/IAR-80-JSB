@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--IAR80 Instruments positioning
-	This file is read by cokpit.xml
-	Datum is tip of propeller spinner-->
+
 <PropertyList>
 
 <!-- CENTER PANEL -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/mag-compass/mag-compass.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/mag-compass/mag-compass.xml</path>
 		<offsets>
 			<x-m>4.254</x-m>
 			<y-m>0.085</y-m>
@@ -16,7 +14,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/vsi/vsi.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/vsi/vsi.xml</path>
 		<offsets>
 			<x-m>4.254</x-m>
 			<y-m>0.085</y-m>
@@ -26,7 +24,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/alt/alt.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/alt/alt.xml</path>
 		<offsets>
 			<x-m>4.254</x-m>
 			<y-m>-0.085</y-m>
@@ -36,7 +34,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/vitezometru/vitezometru.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/vitezometru/vitezometru.xml</path>
 		<offsets>
 			<x-m>4.254</x-m>
 			<y-m>-0.085</y-m>
@@ -46,7 +44,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/turn-slip/turn-slip.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/turn-slip/turn-slip.xml</path>
 		<offsets>
 			<x-m>4.254</x-m>
 			<y-m>-0.0</y-m>
@@ -56,7 +54,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/turo/turo.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/turo/turo.xml</path>
 		<offsets>
 			<x-m>4.232</x-m>
 			<y-m>-0.169</y-m>
@@ -66,7 +64,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/gear-ind/gear-ind.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/gear-ind/gear-ind.xml</path>
 		<offsets>
 			<x-m>4.254</x-m>
 			<y-m>-0.08</y-m>
@@ -75,9 +73,9 @@
 		</offsets>
 	</model>
 
-<!-- RIGHT PANEL -->
+	<!-- RIGHT PANEL -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/fuel/fuel.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/fuel/fuel.xml</path>
 		<offsets>
 			<x-m>4.216</x-m>
 			<y-m>0.247</y-m>
@@ -87,7 +85,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/lightswitch/lightswitchR.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/lightswitch/lightswitchR.xml</path>
 		<offsets>
 			<x-m>4.207</x-m>
 			<y-m>0.225</y-m>
@@ -97,7 +95,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/starterswitch/starterswitch.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/starterswitch/starterswitch.xml</path>
 		<offsets>
 			<x-m>4.218</x-m>
 			<y-m>0.200</y-m>
@@ -107,7 +105,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/volt/volt.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/volt/volt.xml</path>
 		<offsets>
 			<x-m>4.230</x-m>
 			<y-m>0.279</y-m>
@@ -117,7 +115,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/clock/clock.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/clock/clock.xml</path>
 		<offsets>
 			<x-m>4.230</x-m>
 			<y-m>0.169</y-m>
@@ -127,7 +125,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/auto-fire-ext/auto-fire-ext.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/auto-fire-ext/auto-fire-ext.xml</path>
 		<offsets>
 			<x-m>4.200</x-m>
 			<y-m>0.169</y-m>
@@ -136,9 +134,9 @@
 		</offsets>
 	</model>
 
-<!-- SIGHTS -->
+	<!-- SIGHTS -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/IOR-sight/IOR-sight.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/IOR-sight/IOR-sight.xml</path>
 		<offsets>
 			<x-m>4.31</x-m>
 			<y-m>0.0</y-m>
@@ -147,9 +145,9 @@
 		</offsets>
 	</model>
 
-<!--  LEFT PANEL -->
+	<!--  LEFT PANEL -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/oil-temp/oil-temp.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/oil-temp/oil-temp.xml</path>
 		<offsets>
 			<x-m> 4.216</x-m>
 			<y-m>-0.169</y-m>
@@ -159,7 +157,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/manifold/manifold.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/manifold/manifold.xml</path>
 		<offsets>
 			<x-m>4.230</x-m>
 			<y-m>-0.258</y-m>
@@ -169,7 +167,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/fuel-oil-press/fuel-oil-press.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/fuel-oil-press/fuel-oil-press.xml</path>
 		<offsets>
 			<x-m>4.216</x-m>
 			<y-m>-0.248</y-m>
@@ -179,7 +177,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/prop-pitch/prop-pitch.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/prop-pitch/prop-pitch.xml</path>
 		<offsets>
 			<x-m>4.199</x-m>
 			<y-m>-0.169</y-m>
@@ -189,7 +187,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/lightswitch/lightswitchL.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/lightswitch/lightswitchL.xml</path>
 		<offsets>
 			<x-m>4.200</x-m>
 			<y-m>-0.210</y-m>
@@ -198,9 +196,9 @@
 		</offsets>
 	</model>
 
-<!--   LOWER PANEL -->
+	<!--   LOWER PANEL -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/gear-press/gear-press.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/gear-press/gear-press.xml</path>
 		<offsets>
 			<x-m> 3.8845</x-m>
 			<y-m>-0.170</y-m>
@@ -210,7 +208,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/flaps-press/flaps-press.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/flaps-press/flaps-press.xml</path>
 		<offsets>
 			<x-m> 3.8845</x-m>
 			<y-m>-0.085</y-m>
@@ -220,7 +218,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/pump-press/pump-press.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/pump-press/pump-press.xml</path>
 		<offsets>
 			<x-m> 3.8845</x-m>
 			<y-m> 0.000</y-m>
@@ -230,7 +228,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/air-press/air-press.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/air-press/air-press.xml</path>
 		<offsets>
 			<x-m> 3.8845</x-m>
 			<y-m> 0.085</y-m>
@@ -240,7 +238,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/IAR80/Instruments/brakes-press/brakes-press.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/brakes-press/brakes-press.xml</path>
 		<offsets>
 			<x-m> 3.8845</x-m>
 			<y-m> 0.170</y-m>
@@ -249,9 +247,9 @@
 		</offsets>
 	</model>
 
-<!-- MAGNETO switch -->
+	<!-- MAGNETO switch -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/magnetos/magnetos.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/magnetos/magnetos.xml</path>
 		<offsets>
 			<x-m>4.425</x-m>
 			<y-m>-0.415</y-m>
@@ -264,7 +262,7 @@
 
 <!--  PROP-PITCH control -->
 	<model>
-		<path>Aircraft/IAR80/Instruments/prop-pitch-control/prop-pitch-control.xml</path>
+		<path>Aircraft/IAR-80-JSB/Instruments/prop-pitch-control/prop-pitch-control.xml</path>
 		<offsets>
 			<x-m>4.396</x-m>
 			<y-m>-0.285</y-m>
