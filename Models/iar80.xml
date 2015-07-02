@@ -2,17 +2,76 @@
 
 <PropertyList>
 
-	<path>iar_80c.ac</path>
+        <path>iar_80c.ac</path>
 
 	<!-- LIVERY SCRIPT -->
 	<nasal>
-		<load>
-			var livery_update = aircraft.livery_update.new("Aircraft/IAR-80-JSB/Models/Liveries", 10);
-		</load>
-		<unload>
-			livery_update.stop();
-		</unload>
+	  <load>
+	    var livery_update = aircraft.livery_update.new("Aircraft/IAR-80-JSB/Models/Liveries", 10);
+	  </load>
+	  <unload>
+	    livery_update.stop();
+	  </unload>
 	</nasal>
+	
+	<animation>
+	  <name>bodyWork</name>
+	  <object-name>Fuselage.001</object-name>
+	  <object-name>AirFilter</object-name>
+	  <object-name>Canopy</object-name>
+	  <object-name>Cowling</object-name>
+	  <object-name>CowlFlapsC</object-name>
+	  <object-name>CowlFlaps1</object-name>
+	  <object-name>CowlFlaps2</object-name>
+	  <object-name>CowlFlaps3</object-name>
+	  <object-name>CowlFlaps4</object-name>
+	  <object-name>CowlFlapsO</object-name>
+	  <object-name>Elevator</object-name>
+	  <object-name>ElevatorTabL</object-name>
+	  <object-name>ElevatorTabL.001</object-name>
+	  <object-name>ElevatorTabL.002</object-name>
+	  <object-name>ElevatorTabR</object-name>
+	  <object-name>ElevatorTabR.001</object-name>
+	  <object-name>ElevatorTabR.002</object-name>
+	  <object-name>Engine</object-name>
+	  <object-name>Exhaust</object-name>
+	  <object-name>HStab</object-name>
+	  <object-name>LExtAct</object-name>
+	  <object-name>LExtCyl</object-name>
+	  <object-name>LGDrot</object-name>
+	  <object-name>LGDtrans</object-name>
+	  <object-name>LHaileron</object-name>
+	  <object-name>LHflap</object-name>
+	  <object-name>Lstrut</object-name>
+	  <object-name>LstrutL</object-name>
+	  <object-name>LstrutM</object-name>
+	  <object-name>Lwheel</object-name>
+	  <object-name>PitotTube</object-name>
+	  <object-name>RExtAct</object-name>
+	  <object-name>RExtCyl</object-name>
+	  <object-name>RGDrot</object-name>
+	  <object-name>RGDtrans</object-name>
+	  <object-name>RHaileron</object-name>
+	  <object-name>RHflap</object-name>
+	  <object-name>Rstrut</object-name>
+	  <object-name>RstrutL</object-name>
+	  <object-name>RstrutM</object-name>
+	  <object-name>Rudder</object-name>
+	  <object-name>RvMirror</object-name>
+	  <object-name>Rwheel</object-name>
+	  <object-name>Skid</object-name>
+	  <object-name>TailLight</object-name>
+	  <object-name>Wing</object-name>
+	  <object-name>WSstruct</object-name>
+	</animation>
+
+      <animation>
+	<type>material</type>
+	<object-name>bodyWork</object-name>
+	<property-base>sim/model/livery/bodyWork</property-base>
+	<texture-prop>texture</texture-prop>
+	<texture>iar80.png</texture>
+      </animation>
 
 	<!-- Collision Ignore for propeller -->
 	<animation>
@@ -1262,61 +1321,6 @@
 				<property>controls/canopy/opened</property>
 			</binding>
 		</action>
-	</animation>
-
-	<!-- LIVERIES -->
-	<!-- change skin -->
-	<animation>
-	  <type>material</type>
-	  <object-name>Fuselage.001</object-name>
-	  <object-name>AirFilter</object-name>
-	  <object-name>Canopy</object-name>
-	  <object-name>Cowling</object-name>
-	  <object-name>CowlFlapsC</object-name>
-	  <object-name>CowlFlaps1</object-name>
-	  <object-name>CowlFlaps2</object-name>
-	  <object-name>CowlFlaps3</object-name>
-	  <object-name>CowlFlaps4</object-name>
-	  <object-name>CowlFlapsO</object-name>
-	  <object-name>Elevator</object-name>
-	  <object-name>ElevatorTabL</object-name>
-	  <object-name>ElevatorTabL.001</object-name>
-	  <object-name>ElevatorTabL.002</object-name>
-	  <object-name>ElevatorTabR</object-name>
-	  <object-name>ElevatorTabR.001</object-name>
-	  <object-name>ElevatorTabR.002</object-name>
-	  <object-name>Engine</object-name>
-	  <object-name>Exhaust</object-name>
-	  <object-name>HStab</object-name>
-	  <object-name>LExtAct</object-name>
-	  <object-name>LExtCyl</object-name>
-	  <object-name>LGDrot</object-name>
-	  <object-name>LGDtrans</object-name>
-	  <object-name>LHaileron</object-name>
-	  <object-name>LHflap</object-name>
-	  <object-name>Lstrut</object-name>
-	  <object-name>LstrutL</object-name>
-	  <object-name>LstrutM</object-name>
-	  <object-name>Lwheel</object-name>
-	  <object-name>PitotTube</object-name>
-	  <object-name>RExtAct</object-name>
-	  <object-name>RExtCyl</object-name>
-	  <object-name>RGDrot</object-name>
-	  <object-name>RGDtrans</object-name>
-	  <object-name>RHaileron</object-name>
-	  <object-name>RHflap</object-name>
-	  <object-name>Rstrut</object-name>
-	  <object-name>RstrutL</object-name>
-	  <object-name>RstrutM</object-name>
-	  <object-name>Rudder</object-name>
-	  <object-name>RvMirror</object-name>
-	  <object-name>Rwheel</object-name>
-	  <object-name>Skid</object-name>
-	  <object-name>TailLight</object-name>
-	  <object-name>Wing</object-name>
-	  <object-name>WSstruct</object-name>
-	  <property-base>sim/model/livery</property-base>
-	  <texture-prop>texture</texture-prop>
 	</animation>
 
 	<animation>

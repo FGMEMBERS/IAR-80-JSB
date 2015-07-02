@@ -61,6 +61,9 @@
 
 		</model>
 
+		<!-- Add Livery Selection menu item -->
+		<menubar include="Dialogs/iar80-menubar.xml" />
+		
 		<!-- Subsection for submodels -->
 		<submodels>
 			<serviceable type="bool">1</serviceable>
