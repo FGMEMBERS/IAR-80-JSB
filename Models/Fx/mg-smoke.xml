@@ -3,7 +3,7 @@
 	<particlesystem>
 		<name>fire</name>
 		<type>normal</type>
-		<texture>gun-smoke.dds</texture>
+		<texture>gun-smoke.png</texture>
 		<offsets>
 			<x-m> 0.0 </x-m>
 			<y-m> 0.0 </y-m>

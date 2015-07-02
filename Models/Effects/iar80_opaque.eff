@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 	IAR 80 Opaque effect
-	overrides the default effect for .dds textured objects
+	overrides the default effect for .png textured objects
 	insures proper z-sorting
 -->
 <PropertyList>

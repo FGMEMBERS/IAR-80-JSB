@@ -15,17 +15,17 @@
 			<texture n="5">
 				<type>cubemap</type>
 				<images>
-					<positive-x>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/back.dds</positive-x>
-					<negative-x>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/front.dds</negative-x>
-					<positive-y>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/right.dds</positive-y>
-					<negative-y>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/left.dds</negative-y>
-					<positive-z>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/up.dds</positive-z>
-					<negative-z>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/down.dds</negative-z>
+					<positive-x>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/back.png</positive-x>
+					<negative-x>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/front.png</negative-x>
+					<positive-y>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/right.png</positive-y>
+					<negative-y>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/left.png</negative-y>
+					<positive-z>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/up.png</positive-z>
+					<negative-z>Aircraft/IAR-80-JSB/Models/Effects/Textures/Cubemap/Interior/down.png</negative-z>
 				</images>
 			</texture>
 			<reflection-rainbow type="float">0.2</reflection-rainbow>
 			<texture n="7">
-				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/Rainbow.dds</image>
+				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/Rainbow.png</image>
 				<filter>linear-mipmap-linear</filter>
 				<wrap-s>repeat</wrap-s>
 				<wrap-t>repeat</wrap-t>
@@ -33,7 +33,7 @@
 			</texture>
 			<reflection-fresnel type="float">0.05</reflection-fresnel>
 			<texture n="6">
-				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/FresnelLookUp.dds</image>
+				<image>Aircraft/IAR-80-JSB/Models/Effects/Textures/FresnelLookUp.png</image>
 				<filter>linear-mipmap-linear</filter>
 				<wrap-s>repeat</wrap-s>
 				<wrap-t>repeat</wrap-t>

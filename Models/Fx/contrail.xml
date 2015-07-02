@@ -10,7 +10,7 @@
 			<pitch-deg>0</pitch-deg>
 			<heading-deg>0</heading-deg>
 		</offsets>
-		<texture>contrail.dds</texture>
+		<texture>contrail.png</texture>
 		<effect>
 			<inherits-from>Effects/model-default/</inherits-from>
 			<technique n="10">

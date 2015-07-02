@@ -5,7 +5,7 @@
 		<offsets>
 			<heading-deg>180</heading-deg>
 		</offsets>
-		<texture>smoke-n.dds</texture>
+		<texture>smoke-n.png</texture>
 		<condition>
 			  <property>engines/engine/running</property>
 			  <less-than>
