@@ -3424,7 +3424,7 @@ OBJECT poly
 name "Cylinder_1"
 data 8
 Cylinder
-texture "turn-slip.dds"
+texture "turn-slip.png"
 texrep 1 1
 crease 80.000000
 numvert 65

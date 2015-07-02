@@ -2583,7 +2583,7 @@ OBJECT poly
 name "Cube_1"
 data 4
 Cube
-texture "magnetos.dds"
+texture "magnetos.png"
 texrep 1 1
 crease 30.000000
 numvert 20

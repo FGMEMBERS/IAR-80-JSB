@@ -1527,7 +1527,7 @@ OBJECT poly
 name "Cylinder_1"
 data 8
 Cylinder
-texture "oil-temp.dds"
+texture "oil-temp.png"
 texrep 1 1
 crease 80.000000
 numvert 33

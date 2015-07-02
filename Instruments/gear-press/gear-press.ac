@@ -1528,7 +1528,7 @@ OBJECT poly
 name "Cylinder_1"
 data 8
 Cylinder
-texture "gear-press.dds"
+texture "gear-press.png"
 texrep 1 1
 crease 80.000000
 numvert 33

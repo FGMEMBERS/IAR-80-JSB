@@ -6461,7 +6461,7 @@ OBJECT poly
 name "Ldn"
 data 10
 Circle.003
-texture "gear-lights.dds"
+texture "gear-lights.png"
 texrep 1 1
 crease 80.000000
 numvert 97
@@ -7208,7 +7208,7 @@ OBJECT poly
 name "Lup"
 data 10
 Circle.002
-texture "gear-lights.dds"
+texture "gear-lights.png"
 texrep 1 1
 crease 80.000000
 numvert 97
@@ -7955,7 +7955,7 @@ OBJECT poly
 name "Rdn"
 data 6
 Circle
-texture "gear-lights.dds"
+texture "gear-lights.png"
 texrep 1 1
 crease 80.000000
 numvert 97
@@ -8702,7 +8702,7 @@ OBJECT poly
 name "Rup"
 data 10
 Circle.001
-texture "gear-lights.dds"
+texture "gear-lights.png"
 texrep 1 1
 crease 80.000000
 numvert 97

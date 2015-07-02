@@ -3659,7 +3659,7 @@ OBJECT poly
 name "Bcog_1"
 data 12
 Cylinder.005
-texture "range_m.dds"
+texture "range_m.png"
 texrep 1 1
 crease 50.000000
 numvert 10
@@ -6900,7 +6900,7 @@ OBJECT poly
 name "Cylinder_1"
 data 8
 Cylinder
-texture "label.dds"
+texture "label.png"
 texrep 1 1
 crease 80.000000
 numvert 48
@@ -7126,7 +7126,7 @@ OBJECT poly
 name "Cylinder_2"
 data 8
 Cylinder
-texture "range_m.dds"
+texture "range_m.png"
 texrep 1 1
 crease 80.000000
 numvert 96
@@ -7918,7 +7918,7 @@ OBJECT poly
 name "Cylinder.001_1"
 data 12
 Cylinder.001
-texture "rest.dds"
+texture "rest.png"
 texrep 1 1
 crease 80.000000
 numvert 52
@@ -21129,7 +21129,7 @@ OBJECT poly
 name "Rcog_1"
 data 12
 Cylinder.006
-texture "range_m.dds"
+texture "range_m.png"
 texrep 1 1
 crease 50.000000
 numvert 14

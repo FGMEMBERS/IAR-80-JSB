@@ -1528,7 +1528,7 @@ OBJECT poly
 name "Cylinder_1"
 data 8
 Cylinder
-texture "altimetrutexture.dds"
+texture "altimetrutexture.png"
 texrep 1 1
 crease 80.000000
 numvert 120
@@ -3244,7 +3244,7 @@ OBJECT poly
 name "Disc"
 data 6
 Circle
-texture "altimetrutextured.dds"
+texture "altimetrutextured.png"
 texrep 1 1
 crease 30.000000
 numvert 13

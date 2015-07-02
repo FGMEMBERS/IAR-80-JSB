@@ -1622,7 +1622,7 @@ OBJECT poly
 name "Ball_1"
 data 10
 Sphere.002
-texture "compass.dds"
+texture "compass.png"
 texrep 1 1
 crease 79.000000
 numvert 96
@@ -4449,7 +4449,7 @@ OBJECT poly
 name "Ring_1"
 data 12
 Cylinder.004
-texture "ring.dds"
+texture "ring.png"
 texrep 1 1
 crease 80.000000
 numvert 64

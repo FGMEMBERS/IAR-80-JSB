@@ -998,7 +998,7 @@ OBJECT poly
 name "Cover_1"
 data 9
 Plane.001
-texture "Label.dds"
+texture "Label.png"
 texrep 1 1
 crease 80.000000
 numvert 4
