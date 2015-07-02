@@ -1267,247 +1267,197 @@
 	<!-- LIVERIES -->
 	<!-- change skin -->
 	<animation>
-		<type>material</type>
-		<object-name>Fuselage</object-name>
-		<object-name>AirFilter</object-name>
-		<object-name>Canopy</object-name>
-		<object-name>Cowling</object-name>
-		<object-name>CowlFlapsC</object-name>
-		<object-name>CowlFlaps1</object-name>
-		<object-name>CowlFlaps2</object-name>
-		<object-name>CowlFlaps3</object-name>
-		<object-name>CowlFlaps4</object-name>
-		<object-name>CowlFlapsO</object-name>
-		<object-name>Elevator</object-name>
-		<object-name>ElevatorTabL</object-name>
-		<object-name>ElevatorTabL.001</object-name>
-		<object-name>ElevatorTabL.002</object-name>
-		<object-name>ElevatorTabR</object-name>
-		<object-name>ElevatorTabR.001</object-name>
-		<object-name>ElevatorTabR.002</object-name>
-		<object-name>Engine</object-name>
-		<object-name>Exhaust</object-name>
-		<object-name>HStab</object-name>
-		<object-name>LExtAct</object-name>
-		<object-name>LExtCyl</object-name>
-		<object-name>LGDrot</object-name>
-		<object-name>LGDtrans</object-name>
-		<object-name>LHaileron</object-name>
-		<object-name>LHflap</object-name>
-		<object-name>Lstrut</object-name>
-		<object-name>LstrutL</object-name>
-		<object-name>LstrutM</object-name>
-		<object-name>Lwheel</object-name>
-		<object-name>PitotTube</object-name>
-		<object-name>RExtAct</object-name>
-		<object-name>RExtCyl</object-name>
-		<object-name>RGDrot</object-name>
-		<object-name>RGDtrans</object-name>
-		<object-name>RHaileron</object-name>
-		<object-name>RHflap</object-name>
-		<object-name>Rstrut</object-name>
-		<object-name>RstrutL</object-name>
-		<object-name>RstrutM</object-name>
-		<object-name>Rudder</object-name>
-		<object-name>RvMirror</object-name>
-		<object-name>Rwheel</object-name>
-		<object-name>Skid</object-name>
-		<object-name>TailLight</object-name>
-		<object-name>Wing</object-name>
-		<object-name>WSstruct</object-name>
-		<property-base>sim/model/livery</property-base>
-		<texture-prop>texture</texture-prop>
-	</animation>
-
-	<!-- change shininess -->
-	<animation>
-		<type>material</type>
-		<object-name>Fuselage</object-name>
-		<object-name>Canopy</object-name>
-		<object-name>Cowling</object-name>
-		<object-name>CowlFlapsC</object-name>
-		<object-name>CowlFlaps1</object-name>
-		<object-name>CowlFlaps2</object-name>
-		<object-name>CowlFlaps3</object-name>
-		<object-name>CowlFlaps4</object-name>
-		<object-name>CowlFlapsO</object-name>
-		<object-name>Elevator</object-name>
-		<object-name>ElevatorTabL</object-name>
-		<object-name>ElevatorTabL.001</object-name>
-		<object-name>ElevatorTabL.002</object-name>
-		<object-name>ElevatorTabR</object-name>
-		<object-name>ElevatorTabR.001</object-name>
-		<object-name>ElevatorTabR.002</object-name>
-		<object-name>HStab</object-name>
-		<object-name>LExtAct</object-name>
-		<object-name>LExtCyl</object-name>
-		<object-name>LGDrot</object-name>
-		<object-name>LGDtrans</object-name>
-		<object-name>LHaileron</object-name>
-		<object-name>LHflap</object-name>
-		<object-name>Lstrut</object-name>
-		<object-name>LstrutL</object-name>
-		<object-name>LstrutM</object-name>
-		<object-name>PitotTube</object-name>
-		<object-name>RExtAct</object-name>
-		<object-name>RExtCyl</object-name>
-		<object-name>RGDrot</object-name>
-		<object-name>RGDtrans</object-name>
-		<object-name>RHaileron</object-name>
-		<object-name>RHflap</object-name>
-		<object-name>Rstrut</object-name>
-		<object-name>RstrutL</object-name>
-		<object-name>RstrutM</object-name>
-		<object-name>Rudder</object-name>
-		<object-name>RvMirror</object-name>
-		<object-name>Skid</object-name>
-		<object-name>TailLight</object-name>
-		<object-name>Wing</object-name>
-		<object-name>WSstruct</object-name>
-		<property-base>sim/model/livery</property-base>
-		<shininess-prop>shininess</shininess-prop>
+	  <type>material</type>
+	  <object-name>Fuselage.001</object-name>
+	  <object-name>AirFilter</object-name>
+	  <object-name>Canopy</object-name>
+	  <object-name>Cowling</object-name>
+	  <object-name>CowlFlapsC</object-name>
+	  <object-name>CowlFlaps1</object-name>
+	  <object-name>CowlFlaps2</object-name>
+	  <object-name>CowlFlaps3</object-name>
+	  <object-name>CowlFlaps4</object-name>
+	  <object-name>CowlFlapsO</object-name>
+	  <object-name>Elevator</object-name>
+	  <object-name>ElevatorTabL</object-name>
+	  <object-name>ElevatorTabL.001</object-name>
+	  <object-name>ElevatorTabL.002</object-name>
+	  <object-name>ElevatorTabR</object-name>
+	  <object-name>ElevatorTabR.001</object-name>
+	  <object-name>ElevatorTabR.002</object-name>
+	  <object-name>Engine</object-name>
+	  <object-name>Exhaust</object-name>
+	  <object-name>HStab</object-name>
+	  <object-name>LExtAct</object-name>
+	  <object-name>LExtCyl</object-name>
+	  <object-name>LGDrot</object-name>
+	  <object-name>LGDtrans</object-name>
+	  <object-name>LHaileron</object-name>
+	  <object-name>LHflap</object-name>
+	  <object-name>Lstrut</object-name>
+	  <object-name>LstrutL</object-name>
+	  <object-name>LstrutM</object-name>
+	  <object-name>Lwheel</object-name>
+	  <object-name>PitotTube</object-name>
+	  <object-name>RExtAct</object-name>
+	  <object-name>RExtCyl</object-name>
+	  <object-name>RGDrot</object-name>
+	  <object-name>RGDtrans</object-name>
+	  <object-name>RHaileron</object-name>
+	  <object-name>RHflap</object-name>
+	  <object-name>Rstrut</object-name>
+	  <object-name>RstrutL</object-name>
+	  <object-name>RstrutM</object-name>
+	  <object-name>Rudder</object-name>
+	  <object-name>RvMirror</object-name>
+	  <object-name>Rwheel</object-name>
+	  <object-name>Skid</object-name>
+	  <object-name>TailLight</object-name>
+	  <object-name>Wing</object-name>
+	  <object-name>WSstruct</object-name>
+	  <property-base>sim/model/livery</property-base>
+	  <texture-prop>texture</texture-prop>
 	</animation>
 
 	<animation>
 	  <type>material</type>
 	  <condition>
-		<greater-than>-->
-		  <property>sim/multiplay/generic/float[8]</property>
-		  <value>9</value>
-		</greater-than>
+	    <greater-than>
+	      <property>sim/multiplay/generic/float[8]</property>
+	      <value>9</value>
+	    </greater-than>
 	  </condition>
 	  <object-name>WingLightP</object-name>
 	  <emission>
-		<red>	0.99</red>
-		<green>	0.20</green>
-		<blue>	0.20</blue>
+	    <red>0.99</red>
+	    <green>0.20</green>
+	    <blue>0.20</blue>
 	  </emission>
 	</animation>
 
 	<animation>
-		<type>material</type>
-		<condition>
-			<greater-than>-->
-				<property>sim/multiplay/generic/float[8]</property>
-				<value>9</value>
-			</greater-than>
-		</condition>
-		<object-name>WingLightS</object-name>
-		<emission>
-			<red>	0.20</red>
-			<green>	0.99</green>
-			<blue>	0.20</blue>
-		</emission>
+	  <type>material</type>
+	  <condition>
+	    <greater-than>
+	      <property>sim/multiplay/generic/float[8]</property>
+	      <value>9</value>
+	    </greater-than>
+	  </condition>
+	  <object-name>WingLightS</object-name>
+	  <emission>
+	    <red>0.20</red>
+	    <green>0.99</green>
+	    <blue>0.20</blue>
+	  </emission>
 	</animation>
 
 	<!-- GLASS EFFECT -->
-	<!-- effect>
-		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass</inherits-from>
-		<object-name>00_GlassR</object-name>
-		<object-name>00_GlassL</object-name>
-		<object-name>00_WindShield</object-name>
-		<object-name>WingLightP</object-name>
-		<object-name>WingLightS</object-name>
-		<object-name>TailLightGlass</object-name>
-	</effect -->
+	<effect>
+	  <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass</inherits-from>
+	  <object-name>00_GlassR</object-name>
+	  <object-name>00_GlassL</object-name>
+	  <object-name>00_WindShield</object-name>
+	  <object-name>WingLightP</object-name>
+	  <object-name>WingLightS</object-name>
+	  <object-name>TailLightGlass</object-name>
+	</effect>
 
-	<!-- effect>
-		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass_internal</inherits-from>
-		<object-name>00_GlassInR</object-name>
-		<object-name>00_GlassInL</object-name>
-	</effect -->
+	<effect>
+	  <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_glass_internal</inherits-from>
+	  <object-name>00_GlassInR</object-name>
+	  <object-name>00_GlassInL</object-name>
+	</effect>
 
 	<!-- SKIN-EFFECT -->
-	<!--effect>
-		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_bumpspecreflect</inherits-from>
-		<object-name>Fuselage</object-name>
-		<object-name>AirFilter</object-name>
-		<object-name>Canopy</object-name>
-		<object-name>Cowling</object-name>
-		<object-name>CowlFlapsC</object-name>
-		<object-name>CowlFlaps1</object-name>
-		<object-name>CowlFlaps2</object-name>
-		<object-name>CowlFlaps3</object-name>
-		<object-name>CowlFlaps4</object-name>
-		<object-name>CowlFlapsO</object-name>
-		<object-name>Elevator</object-name>
-		<object-name>ElevatorTabL</object-name>
-		<object-name>ElevatorTabR</object-name>
-		<object-name>Engine</object-name>
-		<object-name>Exhaust</object-name>
-		<object-name>HStab</object-name>
-		<object-name>LExtAct</object-name>
-		<object-name>LExtCyl</object-name>
-		<object-name>LGDrot</object-name>
-		<object-name>LGDtrans</object-name>
-		<object-name>LHaileron</object-name>
-		<object-name>LHflap</object-name>
-		<object-name>Lstrut</object-name>
-		<object-name>LstrutL</object-name>
-		<object-name>LstrutM</object-name>
-		<object-name>Lwheel</object-name>
-		<object-name>PitotTube</object-name>
-		<object-name>RExtAct</object-name>
-		<object-name>RExtCyl</object-name>
-		<object-name>RGDrot</object-name>
-		<object-name>RGDtrans</object-name>
-		<object-name>RHaileron</object-name>
-		<object-name>RHflap</object-name>
-		<object-name>Rstrut</object-name>
-		<object-name>RstrutL</object-name>
-		<object-name>RstrutM</object-name>
-		<object-name>Rudder</object-name>
-		<object-name>RvMirror</object-name>
-		<object-name>Rwheel</object-name>
-		<object-name>Skid</object-name>
-		<object-name>TailLight</object-name>
-		<object-name>Wing</object-name>
-		<object-name>WSstruct</object-name>
-	</effect -->
+	<effect>
+	  <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80-combShaders</inherits-from>
+	  <object-name>Fuselage.001</object-name>
+	  <object-name>AirFilter</object-name>
+	  <object-name>Canopy</object-name>
+	  <object-name>Cowling</object-name>
+	  <object-name>CowlFlapsC</object-name>
+	  <object-name>CowlFlaps1</object-name>
+	  <object-name>CowlFlaps2</object-name>
+	  <object-name>CowlFlaps3</object-name>
+	  <object-name>CowlFlaps4</object-name>
+	  <object-name>CowlFlapsO</object-name>
+	  <object-name>Elevator</object-name>
+	  <object-name>ElevatorTabL</object-name>
+	  <object-name>ElevatorTabR</object-name>
+	  <object-name>Engine</object-name>
+	  <object-name>Exhaust</object-name>
+	  <object-name>HStab</object-name>
+	  <object-name>LExtAct</object-name>
+	  <object-name>LExtCyl</object-name>
+	  <object-name>LGDrot</object-name>
+	  <object-name>LGDtrans</object-name>
+	  <object-name>LHaileron</object-name>
+	  <object-name>LHflap</object-name>
+	  <object-name>Lstrut</object-name>
+	  <object-name>LstrutL</object-name>
+	  <object-name>LstrutM</object-name>
+	  <object-name>Lwheel</object-name>
+	  <object-name>PitotTube</object-name>
+	  <object-name>RExtAct</object-name>
+	  <object-name>RExtCyl</object-name>
+	  <object-name>RGDrot</object-name>
+	  <object-name>RGDtrans</object-name>
+	  <object-name>RHaileron</object-name>
+	  <object-name>RHflap</object-name>
+	  <object-name>Rstrut</object-name>
+	  <object-name>RstrutL</object-name>
+	  <object-name>RstrutM</object-name>
+	  <object-name>Rudder</object-name>
+	  <object-name>RvMirror</object-name>
+	  <object-name>Rwheel</object-name>
+	  <object-name>Skid</object-name>
+	  <object-name>TailLight</object-name>
+	  <object-name>Wing</object-name>
+	  <object-name>WSstruct</object-name>
+	</effect>
 
 	<!-- RAIN EFFECT -->
-
-	<!--<effect>
-		<object-name>WindShieldDrops</object-name>
-		<inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_raindrops</inherits-from>
-	</effect>-->
+	<effect>
+	  <object-name>WindShieldDrops</object-name>
+	  <inherits-from>Aircraft/IAR-80-JSB/Models/Effects/iar80_raindrops</inherits-from>
+	</effect>
 
 	<!--  REMBRANDT lights -->
-	<!-- model>
-		<path>Aircraft/IAR-80-JSB/Models/Fx/light-green.xml</path>
-		<offsets>
-			<x-m> 2.367</x-m>
-			<y-m> 5.193</y-m>
-			<z-m>-0.034</z-m>
-		</offsets>
+	<model>
+	  <path>Aircraft/IAR-80-JSB/Models/Fx/light-green.xml</path>
+	  <offsets>
+	    <x-m>2.367</x-m>
+	    <y-m>5.193</y-m>
+	    <z-m>-0.034</z-m>
+	  </offsets>
 	</model>
 	<model>
-		<path>Aircraft/IAR-80-JSB/Models/Fx/light-red.xml</path>
-		<offsets>
-			<x-m> 2.367</x-m>
-			<y-m>-5.193</y-m>
-			<z-m>-0.034</z-m>
-		</offsets>
+	  <path>Aircraft/IAR-80-JSB/Models/Fx/light-red.xml</path>
+	  <offsets>
+	    <x-m>2.367</x-m>
+	    <y-m>-5.193</y-m>
+	    <z-m>-0.034</z-m>
+	  </offsets>
 	</model>
 	<model>
-		<path>Aircraft/IAR-80-JSB/Models/Fx/light-white.xml</path>
-		<offsets>
-			<x-m>8.386</x-m>
-			<y-m>0.000</y-m>
-			<z-m>1.705</z-m>
-		</offsets>
-	</model -->
+	  <path>Aircraft/IAR-80-JSB/Models/Fx/light-white.xml</path>
+	  <offsets>
+	    <x-m>8.386</x-m>
+	    <y-m>0.000</y-m>
+	    <z-m>1.705</z-m>
+	  </offsets>
+	</model>
 
 	<!--  REMBRANDT support for transparent objects -->
-	<!-- effect>
-		<inherits-from>Effects/model-transparent</inherits-from>
-		<object-name>PbBlade1</object-name>
-		<object-name>PbBlade2</object-name>
-		<object-name>PbBlade3</object-name>
-		<object-name>PropDisc</object-name>
-		<object-name>NavLightL</object-name>
-		<object-name>NavLightR</object-name>
-		<object-name>NavLightB</object-name>
-	</effect -->
+	<effect>
+	  <inherits-from>Effects/model-transparent</inherits-from>
+	  <object-name>PbBlade1</object-name>
+	  <object-name>PbBlade2</object-name>
+	  <object-name>PbBlade3</object-name>
+	  <object-name>PropDisc</object-name>
+	  <object-name>NavLightL</object-name>
+	  <object-name>NavLightR</object-name>
+	  <object-name>NavLightB</object-name>
+	</effect>
 
 </PropertyList>
