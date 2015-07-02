@@ -20,7 +20,7 @@ OBJECT poly
 name "AilAxle"
 data 8
 Cube.005
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 130
@@ -1882,7 +1882,7 @@ OBJECT poly
 name "ChairLever"
 data 12
 Cylinder.010
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 264
@@ -4046,7 +4046,7 @@ OBJECT poly
 name "ChairLever.001_1"
 data 12
 Cylinder.015
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 54
@@ -4411,7 +4411,7 @@ OBJECT poly
 name "Circle.001"
 data 10
 Circle.009
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 196
@@ -5723,7 +5723,7 @@ OBJECT poly
 name "Circle.003"
 data 10
 Circle.011
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 206
@@ -7427,7 +7427,7 @@ OBJECT poly
 name "Circle.004"
 data 10
 Circle.018
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 192
@@ -8931,7 +8931,7 @@ OBJECT poly
 name "Circle.005"
 data 10
 Circle.019
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 288
@@ -10279,7 +10279,7 @@ OBJECT poly
 name "Circle.006"
 data 10
 Circle.020
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 99
@@ -11171,7 +11171,7 @@ OBJECT poly
 name "Circle.007"
 data 10
 Circle.021
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 132
@@ -12209,7 +12209,7 @@ OBJECT poly
 name "Circle.008"
 data 10
 Circle.022
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 440
@@ -14563,7 +14563,7 @@ OBJECT poly
 name "Circle.009"
 data 10
 Circle.023
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 146
@@ -15853,7 +15853,7 @@ OBJECT poly
 name "Circle.010"
 data 10
 Circle.024
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 24
@@ -16041,7 +16041,7 @@ OBJECT poly
 name "Circle.011"
 data 10
 Circle.025
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 200
@@ -17287,7 +17287,7 @@ OBJECT poly
 name "Circle.012"
 data 10
 Circle.028
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 16
@@ -17411,7 +17411,7 @@ OBJECT poly
 name "Circle.013"
 data 10
 Circle.027
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 822
@@ -23010,7 +23010,7 @@ OBJECT poly
 name "Circle.014"
 data 10
 Circle.029
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 15
@@ -23091,7 +23091,7 @@ OBJECT poly
 name "Cockpit"
 data 9
 Plane.038
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 30.000000
 numvert 287
@@ -35325,7 +35325,7 @@ OBJECT poly
 name "Cylinder_1"
 data 12
 Cylinder.007
-texture "wire_mesh1.dds"
+texture "wire_mesh1.png"
 texrep 1 1
 crease 80.000000
 numvert 180
@@ -36607,7 +36607,7 @@ OBJECT poly
 name "Dash.003"
 data 8
 Mesh.003
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 1192
@@ -42761,7 +42761,7 @@ OBJECT poly
 name "Dash_C"
 data 4
 Mesh
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 1247
@@ -52256,7 +52256,7 @@ OBJECT poly
 name "Dash_L"
 data 8
 Mesh.001
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 725
@@ -58321,7 +58321,7 @@ OBJECT poly
 name "Dash_R"
 data 8
 Mesh.002
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 629
@@ -63780,7 +63780,7 @@ OBJECT poly
 name "EmGearsock"
 data 10
 Circle.033
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 154
@@ -65008,7 +65008,7 @@ OBJECT poly
 name "FireExt"
 data 8
 Cube.003
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 252
@@ -67029,7 +67029,7 @@ OBJECT poly
 name "FireExt.001"
 data 8
 Cube.024
-texture "wire_mesh1.dds"
+texture "wire_mesh1.png"
 texrep 1 1
 crease 80.000000
 numvert 128
@@ -68007,7 +68007,7 @@ OBJECT poly
 name "FireExtBut"
 data 8
 Cube.020
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 96
@@ -68771,7 +68771,7 @@ OBJECT poly
 name "FlapLev"
 data 10
 Circle.002
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 250
@@ -70619,7 +70619,7 @@ OBJECT poly
 name "FuseBox_0"
 data 8
 Cube.013
-texture "labels1.dds"
+texture "labels1.png"
 texrep 1 1
 crease 80.000000
 numvert 4
@@ -70640,7 +70640,7 @@ OBJECT poly
 name "FuseBox_1"
 data 8
 Cube.013
-texture "labels3.dds"
+texture "labels3.png"
 texrep 1 1
 crease 80.000000
 numvert 4
@@ -70661,7 +70661,7 @@ OBJECT poly
 name "FuseBox_2"
 data 8
 Cube.013
-texture "labels2.dds"
+texture "labels2.png"
 texrep 1 1
 crease 80.000000
 numvert 4
@@ -74495,7 +74495,7 @@ OBJECT poly
 name "GearLev"
 data 10
 Circle.003
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 250
@@ -81027,7 +81027,7 @@ OBJECT poly
 name "Guards"
 data 10
 Circle.035
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 341
@@ -87375,7 +87375,7 @@ OBJECT poly
 name "Headrest"
 data 9
 Plane.037
-texture "headrest.dds"
+texture "headrest.png"
 texrep 1 1
 crease 30.000000
 numvert 90
@@ -88101,7 +88101,7 @@ OBJECT poly
 name "Holders"
 data 10
 Circle.031
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 294
@@ -90386,7 +90386,7 @@ OBJECT poly
 name "Horn"
 data 10
 Circle.026
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 233
@@ -92426,7 +92426,7 @@ OBJECT poly
 name "LabelsFP"
 data 10
 Circle.014
-texture "labels4.dds"
+texture "labels4.png"
 texrep 1 1
 crease 30.000000
 numvert 250
@@ -103161,7 +103161,7 @@ OBJECT poly
 name "ManGear"
 data 10
 Circle.012
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 313
@@ -105533,7 +105533,7 @@ OBJECT poly
 name "MapHolder"
 data 9
 Plane.047
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 30.000000
 numvert 222
@@ -107305,7 +107305,7 @@ OBJECT poly
 name "MaskSocket"
 data 10
 Circle.034
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 115
@@ -108162,7 +108162,7 @@ OBJECT poly
 name "MixLev"
 data 10
 Circle.006
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 152
@@ -109448,7 +109448,7 @@ OBJECT poly
 name "MixRod"
 data 8
 Cube.011
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 118
@@ -117485,7 +117485,7 @@ OBJECT poly
 name "Photo"
 data 9
 Plane.080
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 30.000000
 numvert 24
@@ -117624,7 +117624,7 @@ OBJECT poly
 name "Pipes"
 data 10
 Circle.001
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 1229
@@ -127763,7 +127763,7 @@ OBJECT poly
 name "PipesOxy"
 data 8
 Cube.023
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 736
@@ -133493,7 +133493,7 @@ OBJECT poly
 name "Primer"
 data 12
 Cylinder.009
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 73
@@ -136676,7 +136676,7 @@ OBJECT poly
 name "RCabL_1"
 data 9
 Plane.045
-texture "wire_mesh1.dds"
+texture "wire_mesh1.png"
 texrep 1 1
 crease 80.000000
 numvert 12
@@ -136915,7 +136915,7 @@ OBJECT poly
 name "RCabR_1"
 data 9
 Plane.046
-texture "wire_mesh1.dds"
+texture "wire_mesh1.png"
 texrep 1 1
 crease 80.000000
 numvert 12
@@ -137881,7 +137881,7 @@ OBJECT poly
 name "RadLev"
 data 10
 Circle.004
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 250
@@ -142534,7 +142534,7 @@ OBJECT poly
 name "Seat"
 data 9
 Plane.041
-texture "cockpit.dds"
+texture "cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 212
@@ -143960,7 +143960,7 @@ OBJECT poly
 name "SeatAxle"
 data 10
 Circle.032
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 302
@@ -152760,7 +152760,7 @@ OBJECT poly
 name "Stair"
 data 10
 Circle.030
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 12
@@ -158583,7 +158583,7 @@ OBJECT poly
 name "Stick_1"
 data 8
 Cube.004
-texture "wire_mesh1.dds"
+texture "wire_mesh1.png"
 texrep 1 1
 crease 80.000000
 numvert 405
@@ -162280,7 +162280,7 @@ OBJECT poly
 name "Throttle"
 data 8
 Cube.008
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 30.000000
 numvert 598
@@ -167159,7 +167159,7 @@ OBJECT poly
 name "ThrottleRod"
 data 8
 Cube.009
-texture "dummy.dds"
+texture "dummy.png"
 texrep 1 1
 crease 80.000000
 numvert 239
@@ -173430,7 +173430,7 @@ OBJECT poly
 name "oxytank"
 data 8
 Cube.012
-texture "cockpit-levers.dds"
+texture "cockpit-levers.png"
 texrep 1 1
 crease 80.000000
 numvert 463
@@ -176969,7 +176969,7 @@ OBJECT poly
 name "wiring"
 data 9
 Plane.044
-texture "wiring.dds"
+texture "wiring.png"
 texrep 1 1
 crease 80.000000
 numvert 259
