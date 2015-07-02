@@ -5,7 +5,7 @@
 			<livery>
 				<name type="string">bare-metal</name>
 				<index type="int">99</index>
-				<texture>Liveries/bare-metal.dds</texture>
+				<texture>Liveries/bare-metal.png</texture>
 				<shininess type="float">32</shininess>
 				<reflection-enabled type="int">1</reflection-enabled>
 				<reflection-correction type="string">0.3</reflection-correction>

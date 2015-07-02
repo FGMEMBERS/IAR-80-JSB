@@ -5,7 +5,7 @@
 			<livery>
 				<name type="string">Hawks of Romania (Romanian AirClub)</name>
 				<index type="int">1</index>
-				<texture>Liveries/rohawks.dds</texture>
+				<texture>Liveries/rohawks.png</texture>
 				<shininess type="float">128</shininess>
 				<reflection-correction type="string">-0.02</reflection-correction>
 				<reflection-enabled type="int">1</reflection-enabled>

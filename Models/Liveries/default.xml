@@ -5,7 +5,7 @@
 			<livery>
 				<name type="string">Default (Romanian Royal Air Force)</name>
 				<index type="int">0</index>
-				<texture>iar80.dds</texture>
+				<texture>iar80.png</texture>
 				<shininess type="float">128</shininess>
 				<reflection-correction type="float">-0.9</reflection-correction>
 				<reflection-enabled type="int">1</reflection-enabled>
