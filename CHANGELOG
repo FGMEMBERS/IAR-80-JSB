@@ -1,3 +1,10 @@
+2015-07-02
+	*v2.0:
+	        JSBsim new version. Shaders, reflections and bumps readapted for FG 3.x.
+		Textures transferred from dds to png
+	        New autopilot.  Major version bump.
+		For detailed changes see: https://github.com/JWocky/IAR-80-JSB/commits/master
+	
 2012-01-13
 	*v1.26:
 			Updated sounds, and sound effects

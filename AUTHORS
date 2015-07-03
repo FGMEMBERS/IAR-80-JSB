@@ -1,3 +1,41 @@
+AUTHORS.txt. Uptaded. version 2.0: IAR-80-JSBSIM
+
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+IAR-80 Aircraft (JSBsim) for the Flightgear Flight Simulator
+Files: *
+Copyright: 2004 Curtis L. Olson  http://www.flightgear.org/~curt,
+	   2006 Tatsuhiro Nishioka <twitter: @tat_fgmacosx>
+	   2007-2008 Syd Adams <adams.syd@gmail.com>
+           2011 Emilian Huminiuc <emilianh@gmail.com>
+	   2011 Ron Jensen <>
+	   2011 Detlef Faber <faber@sol2500.net>
+	   2011 Thorsten Jordan, Luis Barrancos (@dangerdeep.sf.net>
+	   2011 Emanuel Baranger (Helijah) <embaranger@free.fr>
+	   2011 ASK21 <>
+	   2011 Frederic Bouvier <>
+	   2015 Peter Brendt <peter.brendt@brendtandbrendt.com>
+           2015 Israel Hernandez <israel.a.hernandez@gmail.com>
+License: GPL2. See ./COPYING
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*******
+
+PREVIOUS VERSION of AUTHORS file
+
 * 3d model & YASim fdm: Emilian Huminiuc. (emilianh |at| gmail |dot| com, i4dnf on the flightgear forums)
 * JSBSim fdm: Ron Jensen
 * some nasal code from A6M2 by Syd Adams & Tat Nishioka.
